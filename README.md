@@ -1,1 +1,9 @@
 # test
+
+Project details: This internship could have several subprojects, all working towards the overarching goal of understanding use of AI agents and assistants to enhance the COFII development environment. 
+
+Project 1: Add a chatbot to auto generate the options spec/vue html for a service based on developer queries.  
+
+Currently geophysical algorithm developers create COFII (Chevron Optimization Framework for Imaging and Inversion) webservices to deploy their applications. Web services are often accompanied by a web front end accessed via COFII notebooks (COFII - Notebooks). There are several steps in generating the web services which could be automated: generating the options spec specifying the parameters necessary for running the service, generating some of the boilerplate code structure for the service and generating html components, and JavaScript methods necessary for the notebook front end.  
+
+For this project, we would like to investigate the use of Azure OpenAI assistants to generate the HTML components for a web front end.  The expected end user experience is that users will click a button on the Parameter Designer app (COFII - Designer ) to generate the basic HTML for given set of options for a web service. They will be able to visualize the page using the render feature and request changes using words.  The AI Assistant will make these changes, and the cycle continues till developer is happy with the front end. The assistant should also ensure there are no syntax errors, and the assistant should be trained on the documentation for Vue Bootstrap Next framework, to be consistent with current apps. We can also consider generating code for “Input data” and “Input method” boxes. Extra credit if we can replace the text boxes in the Parameter Designer page with boxes that can “lint” code.  
